@@ -1,14 +1,15 @@
 {
-  "name": "All About Zodiac Signs ~ Popular Astrology For Everyone",
-  "short_name": "All About Zodiac Signs",
-  "theme_color": "#e51c23",
-  "background_color": "#ffffff",
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
-  "description": "Explore every Zodiac Sign. Find out the real personality of a Gemini, a Scorpio or any other sign. As a result, you will learn a lot about yourself",
-  "lang": "en",
-  "icons": [
+ "short_name": "All About Zodiac Signs",
+ "name": "All About Zodiac Signs ~ Popular Astrology For Everyone",
+ "lang": "en",
+ "description": "Explore every Zodiac Sign. Find out the real personality of a Gemini, a Scorpio or any other sign. As a result, you will learn a lot about yourself",
+ "start_url": "https://all-about-zodiac-signs.blogspot.com/",
+ "background_color": "#ffffff",
+ "theme_color": "#e51c23",
+ "dir": "ltr",
+ "display": "standalone",
+ "orientation": "any",
+ "icons": [
      {
     "src": "https://lh3.googleusercontent.com/-P_4au6kDVv0/AAAAAAAAAAI/AAAAAAAACGM/kAqxUFlzWk8/s36/photo.png",
     "sizes": "36x36",
