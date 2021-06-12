@@ -368,10 +368,10 @@ function stickside(_, t, e) {
         height: i
     })
 }
-!function() {
+/*!function() {
   jQuery.easing.jswing = jQuery.easing.swing;
-},
-function(s) {
+},*/
+!function(s) {
   s.fn.myTab = function(a) {
     return a = jQuery.extend({
       active: 1,
@@ -388,7 +388,7 @@ function(s) {
       }).eq(e).addClass('activeTab');
     });
   };
-}(jQuery),
+},/*(jQuery)*/
     function (i) {
         i.fn.hoverTimeout = function (e, a, s, $) {
             return this.each(function () {
