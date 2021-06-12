@@ -712,9 +712,9 @@ var sfArr = function (_) {
     };
 gCSE || dajaxsrc || ajaxsrc(), $(_$_[504]).find(_$_[503]).each(function () {
         title = $(this).find(_$_[216]).text(), $(this).attr(_$_[502], title)
-    }), $(_$_[504]).myTab({
+    }), /*$(_$_[504]).myTab({
         active: 1
-    }), $(_$_[506]).click(function () {
+    }),*/ $(_$_[506]).click(function () {
         var _ = $(this);
         return _.hasClass(_$_[18]) ? ($(_$_[505]).fadeOut(), _.removeClass(_$_[18])) : (_.addClass(_$_[18]), $(_$_[505]).fadeIn()), !1
     }), cdate(),
