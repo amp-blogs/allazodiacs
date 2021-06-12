@@ -1086,7 +1086,7 @@ gCSE || dajaxsrc || ajaxsrc(), $(_$_[504]).find(_$_[503]).each(function () {
                 title: _$_[1]
             })
         }), $(this).parents(_$_[518]).addClass(_$_[682])
-    }), $(_$_[683]).myTab(),
+    }), /*$(_$_[683]).myTab(),*/
     $(_$_[694]).each(function () {
         var s = _$_[1];
         $(this).find(_$_[689]).each(function () {
