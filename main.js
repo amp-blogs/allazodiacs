@@ -1069,7 +1069,7 @@ gCSE || dajaxsrc || ajaxsrc(), $(_$_[504]).find(_$_[503]).each(function () {
                 new v.RCom(this, _)
             })
         }
-    }(/*jQuery*/), $(_$_[675]).each(function () {
+    }(jQuery), $(_$_[675]).each(function () {
         var _ = rgx[34],
             t = new RegExp(/\[/.source + _.source + /(.*?)(\/?)\]/.source, _$_[673]),
             e = (_ = new RegExp(/\[\//.source + _.source +
