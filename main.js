@@ -389,7 +389,7 @@ function stickside(_, t, e) {
     });
   };
 },/*(jQuery)*/
-    function (i) {
+    /*function (i) {
         i.fn.hoverTimeout = function (e, a, s, $) {
             return this.each(function () {
                 var _ = null,
@@ -405,7 +405,7 @@ function stickside(_, t, e) {
                 })
             })
         }
-    },/*(jQuery)*/
+    },(jQuery)*/
     function ($) {
         var i = {
             customClass: "simply-scroll",
@@ -694,13 +694,13 @@ if ($(_$_[417]).html(csystext.replace(/\[googlep\]/g, bcom).replace(/\[disqus\]/
         duration: 250
     }), $(_$_[451]).removeClass(_$_[450])
 }
-$(_$_[455]).hoverTimeout(100, function () {
+/*$(_$_[455]).hoverTimeout(100, function () {
     $(this).children(_$_[37]).filter(_$_[453]).slideDown()
 }, 300, function () {
     $(this).children(_$_[37]).slideUp(500, _$_[454])
 }), $(_$_[145]).each(function () {
     lpost($(this))
-});
+});*/
 var sfArr = function (_) {
         var t, e, a = _.length;
         if (0 === a) return !1;
