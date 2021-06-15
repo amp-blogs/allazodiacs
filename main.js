@@ -405,7 +405,7 @@ function stickside(_, t, e) {
                 })
             })
         }
-    }(jQuery),
+    },/*(jQuery)*/
     function ($) {
         var i = {
             customClass: "simply-scroll",
