@@ -368,9 +368,9 @@ function stickside(_, t, e) {
         height: i
     })
 }
-/*!function() {
+!function() {
   jQuery.easing.jswing = jQuery.easing.swing;
-},*/
+},
 !function(s) {
   s.fn.myTab = function(a) {
     return a = jQuery.extend({
@@ -388,8 +388,8 @@ function stickside(_, t, e) {
       }).eq(e).addClass('activeTab');
     });
   };
-},/*(jQuery)*/
-    /*function (i) {
+},(jQuery)
+    function (i) {
         i.fn.hoverTimeout = function (e, a, s, $) {
             return this.each(function () {
                 var _ = null,
@@ -405,7 +405,7 @@ function stickside(_, t, e) {
                 })
             })
         }
-    },(jQuery)*/
+    },(jQuery)
     function ($) {
         var i = {
             customClass: "simply-scroll",
@@ -501,7 +501,7 @@ function stickside(_, t, e) {
                 ] = this.resetPosition
             }
         })
-    };/*(jQuery)*/
+    };(jQuery)
 var _$_ = ["cookie", "", ";expires=", ";path=/", "=", "test", "ok", ";", "", "click", "", '<input class="emoKey" type="hidden" size="', '" value=" ', '" />', "select", "cursor", "pointer", "", "active", "", "", '<ul class="hide ', '">', "i", '<i class="', "class", '"></i>', "href", "a", "_", "-", '<a href="', "</a>", '</ul><a href="', '</a><ul class="hide ', "li", "</ul>", "ul", ".summary-content", "file-text-o", ".noimage", ".thumb-img", ".post-type", ".thumb-area", "title", ".jmptext", ".h2", "s400", "s300", "data-img", "s72-c", "/default.jpg", "/mqdefault.jpg",
         "https://img.youtube.com/vi/", "video-camera", "/", "no_image", "rgba(0, 0, 0, 0.15)", "img.youtube.com", '<span class="youtubeplay"><i class="fa fa-play-circle-o"></i></span>', "hyoutube", ".latest-img", "music", "camera-retro", "quote-left", '<i class="fa fa-', "$1", '<div class="review-place ', '"><span class="review-value">', '</span><div class="slice"><div class="bar"></div></div></div>', "width", "%", ".bar", "&quot;", '...<a href="', '" class="rmtext" title="', " ", "</a>", "style", "background:", "https", 'url("', '")',
         " no-repeat center center;background-size: cover", "", "", "", "#ajax-search-form", ":text", '<div class="src-result ', ' hide" id="search-result"></div>', "#search-result", "submit", '<div class="loader">', "</div>", "//", "/feeds/posts/default?alt=json-in-script&q=", "&max-results=", '<div class="src-header">', " &quot;", "&quot;</div>", '<a class="src-close ', '" href="/">&times;</a><div class="src-area">', "ig", "<span class='src-mark'>", "</span>", "alternate", "enclosure", "content", "summary", "media$thumbnail", "/s",
@@ -694,13 +694,13 @@ if ($(_$_[417]).html(csystext.replace(/\[googlep\]/g, bcom).replace(/\[disqus\]/
         duration: 250
     }), $(_$_[451]).removeClass(_$_[450])
 }
-/*$(_$_[455]).hoverTimeout(100, function () {
+$(_$_[455]).hoverTimeout(100, function () {
     $(this).children(_$_[37]).filter(_$_[453]).slideDown()
 }, 300, function () {
     $(this).children(_$_[37]).slideUp(500, _$_[454])
 }), $(_$_[145]).each(function () {
     lpost($(this))
-});*/
+});
 var sfArr = function (_) {
         var t, e, a = _.length;
         if (0 === a) return !1;
@@ -712,9 +712,9 @@ var sfArr = function (_) {
     };
 gCSE || dajaxsrc || ajaxsrc(), $(_$_[504]).find(_$_[503]).each(function () {
         title = $(this).find(_$_[216]).text(), $(this).attr(_$_[502], title)
-    }), /*$(_$_[504]).myTab({
+    }), $(_$_[504]).myTab({
         active: 1
-    }),*/ $(_$_[506]).click(function () {
+    }), $(_$_[506]).click(function () {
         var _ = $(this);
         return _.hasClass(_$_[18]) ? ($(_$_[505]).fadeOut(), _.removeClass(_$_[18])) : (_.addClass(_$_[18]), $(_$_[505]).fadeIn()), !1
     }), cdate(),
@@ -1086,7 +1086,7 @@ gCSE || dajaxsrc || ajaxsrc(), $(_$_[504]).find(_$_[503]).each(function () {
                 title: _$_[1]
             })
         }), $(this).parents(_$_[518]).addClass(_$_[682])
-    }), /*$(_$_[683]).myTab(),*/
+    }), $(_$_[683]).myTab(),
     $(_$_[694]).each(function () {
         var s = _$_[1];
         $(this).find(_$_[689]).each(function () {
@@ -1413,7 +1413,7 @@ if ($(_$_[518]).each(function () {
             var _ = $(this).attr(_$_[699]);
             $(this).attr(_$_[699], _.replace(/\/s[0-9]+(\-c)?\//, _$_[953])).addClass(_$_[426])
         }), $(_$_[507]).append(_$_[955]), $(_$_[956]).append($(_$_[417])),
-        /*$(_$_[417]).myTab(), 1 == $(_$_[957]).length && $(_$_[958]).hide(),*/ $(_$_[964]).each(function () {
+        $(_$_[417]).myTab(), 1 == $(_$_[957]).length && $(_$_[958]).hide(), $(_$_[964]).each(function () {
             var _ = $(this),
                 t = _.attr(_$_[44]),
                 e = _.parent(_$_[28]),
