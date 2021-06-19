@@ -368,9 +368,9 @@ function stickside(_, t, e) {
         height: i
     })
 }
-!function() {
+/*!function() {
   jQuery.easing.jswing = jQuery.easing.swing;
-},
+},*/
 !function(s) {
   s.fn.myTab = function(a) {
     return a = jQuery.extend({
