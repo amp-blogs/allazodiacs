@@ -388,7 +388,7 @@ function stickside(_, t, e) {
       }).eq(e).addClass('activeTab');
     });
   };
-},(jQuery)
+}(jQuery),
     function (i) {
         i.fn.hoverTimeout = function (e, a, s, $) {
             return this.each(function () {
@@ -405,7 +405,7 @@ function stickside(_, t, e) {
                 })
             })
         }
-    },(jQuery)
+    }(jQuery),
     function ($) {
         var i = {
             customClass: "simply-scroll",
@@ -501,7 +501,7 @@ function stickside(_, t, e) {
                 ] = this.resetPosition
             }
         })
-    };(jQuery)
+    }(jQuery);
 var _$_ = ["cookie", "", ";expires=", ";path=/", "=", "test", "ok", ";", "", "click", "", '<input class="emoKey" type="hidden" size="', '" value=" ', '" />', "select", "cursor", "pointer", "", "active", "", "", '<ul class="hide ', '">', "i", '<i class="', "class", '"></i>', "href", "a", "_", "-", '<a href="', "</a>", '</ul><a href="', '</a><ul class="hide ', "li", "</ul>", "ul", ".summary-content", "file-text-o", ".noimage", ".thumb-img", ".post-type", ".thumb-area", "title", ".jmptext", ".h2", "s400", "s300", "data-img", "s72-c", "/default.jpg", "/mqdefault.jpg",
         "https://img.youtube.com/vi/", "video-camera", "/", "no_image", "rgba(0, 0, 0, 0.15)", "img.youtube.com", '<span class="youtubeplay"><i class="fa fa-play-circle-o"></i></span>', "hyoutube", ".latest-img", "music", "camera-retro", "quote-left", '<i class="fa fa-', "$1", '<div class="review-place ', '"><span class="review-value">', '</span><div class="slice"><div class="bar"></div></div></div>', "width", "%", ".bar", "&quot;", '...<a href="', '" class="rmtext" title="', " ", "</a>", "style", "background:", "https", 'url("', '")',
         " no-repeat center center;background-size: cover", "", "", "", "#ajax-search-form", ":text", '<div class="src-result ', ' hide" id="search-result"></div>', "#search-result", "submit", '<div class="loader">', "</div>", "//", "/feeds/posts/default?alt=json-in-script&q=", "&max-results=", '<div class="src-header">', " &quot;", "&quot;</div>", '<a class="src-close ', '" href="/">&times;</a><div class="src-area">', "ig", "<span class='src-mark'>", "</span>", "alternate", "enclosure", "content", "summary", "media$thumbnail", "/s",
